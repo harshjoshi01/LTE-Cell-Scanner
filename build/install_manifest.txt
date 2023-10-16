@@ -1,0 +1,2 @@
+/usr/local/bin/CellSearch
+/usr/local/bin/LTE-Tracker

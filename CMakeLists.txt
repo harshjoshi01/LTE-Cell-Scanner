@@ -1,6 +1,11 @@
 CMAKE_MINIMUM_REQUIRED( VERSION 2.8.4 )
+SET (CMAKE_LIBRARY_PATH "/usr/lib/aarch64-linux-gnu/")
 # allow more human readable "if then else" constructs
 #SET( CMAKE_ALLOW_LOOSE_LOOP_CONSTRUCTS TRUE )
+
+if(POLICY CMP0079)
+  cmake_policy(SET CMP0079 NEW)
+endif()
 
 # Add the local Find*.cmake scripts
 LIST (APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake/Modules)
@@ -113,6 +118,8 @@ ELSE (USE_BLADERF MATCHES 1)
   ENDIF (USE_HACKRF MATCHES 1)
 
 ENDIF (USE_BLADERF MATCHES 1)
+
+list(APPEND CMAKE_MODULE_PATH "/home/pi/LTE-Cell-Scanner/cmake/Modules/")
 
 FIND_PACKAGE( Curses REQUIRED )
 INCLUDE_DIRECTORIES("${CURSES_INCLUDE_DIR}")

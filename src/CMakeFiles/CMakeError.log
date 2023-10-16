@@ -1,0 +1,1680 @@
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_ccd37/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ccd37.dir/build.make CMakeFiles/cmTC_ccd37.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ccd37.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_ccd37.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ccd37
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccd37.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_ccd37.dir/CheckFunctionExists.c.o -o cmTC_ccd37  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_ccd37.dir/build.make:106: cmTC_ccd37] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_ccd37/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_ef9c7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ef9c7.dir/build.make CMakeFiles/cmTC_ef9c7.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef9c7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_ef9c7.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ef9c7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef9c7.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_ef9c7.dir/CheckFunctionExists.c.o -o cmTC_ef9c7 
+/usr/bin/ld: CMakeFiles/cmTC_ef9c7.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_ef9c7.dir/build.make:106: cmTC_ef9c7] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_ef9c7/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_75a0a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_75a0a.dir/build.make CMakeFiles/cmTC_75a0a.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75a0a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_75a0a.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_75a0a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75a0a.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_75a0a.dir/CheckFunctionExists.c.o -o cmTC_75a0a  /usr/lib/aarch64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_75a0a.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_75a0a.dir/build.make:107: cmTC_75a0a] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_75a0a/fast] Error 2
+
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_3840b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3840b.dir/build.make CMakeFiles/cmTC_3840b.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3840b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_3840b.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3840b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3840b.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_3840b.dir/CheckFunctionExists.c.o -o cmTC_3840b  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_3840b.dir/build.make:106: cmTC_3840b] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_3840b/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_90eca/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_90eca.dir/build.make CMakeFiles/cmTC_90eca.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_90eca.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_90eca.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_90eca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90eca.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_90eca.dir/CheckFunctionExists.c.o -o cmTC_90eca 
+/usr/bin/ld: CMakeFiles/cmTC_90eca.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_90eca.dir/build.make:106: cmTC_90eca] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_90eca/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_46c38/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_46c38.dir/build.make CMakeFiles/cmTC_46c38.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_46c38.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_46c38.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_46c38
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46c38.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_46c38.dir/CheckFunctionExists.c.o -o cmTC_46c38  /usr/lib/aarch64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_46c38.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_46c38.dir/build.make:107: cmTC_46c38] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_46c38/fast] Error 2
+
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f00ab/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f00ab.dir/build.make CMakeFiles/cmTC_f00ab.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f00ab.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_f00ab.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f00ab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f00ab.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_f00ab.dir/CheckFunctionExists.c.o -o cmTC_f00ab  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_f00ab.dir/build.make:106: cmTC_f00ab] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_f00ab/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_78774/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_78774.dir/build.make CMakeFiles/cmTC_78774.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_78774.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_78774.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_78774
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78774.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_78774.dir/CheckFunctionExists.c.o -o cmTC_78774 
+/usr/bin/ld: CMakeFiles/cmTC_78774.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_78774.dir/build.make:106: cmTC_78774] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_78774/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_abafb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_abafb.dir/build.make CMakeFiles/cmTC_abafb.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_abafb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_abafb.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_abafb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abafb.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_abafb.dir/CheckFunctionExists.c.o -o cmTC_abafb  /usr/lib/aarch64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_abafb.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_abafb.dir/build.make:107: cmTC_abafb] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_abafb/fast] Error 2
+
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_c21d0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c21d0.dir/build.make CMakeFiles/cmTC_c21d0.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c21d0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_c21d0.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c21d0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c21d0.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_c21d0.dir/CheckFunctionExists.c.o -o cmTC_c21d0  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_c21d0.dir/build.make:106: cmTC_c21d0] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_c21d0/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f5f49/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f5f49.dir/build.make CMakeFiles/cmTC_f5f49.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f5f49.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_f5f49.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f5f49
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5f49.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_f5f49.dir/CheckFunctionExists.c.o -o cmTC_f5f49 
+/usr/bin/ld: CMakeFiles/cmTC_f5f49.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_f5f49.dir/build.make:106: cmTC_f5f49] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_f5f49/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_8341c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8341c.dir/build.make CMakeFiles/cmTC_8341c.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8341c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_8341c.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8341c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8341c.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_8341c.dir/CheckFunctionExists.c.o -o cmTC_8341c  /usr/lib/aarch64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_8341c.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_8341c.dir/build.make:107: cmTC_8341c] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_8341c/fast] Error 2
+
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_9ebdd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9ebdd.dir/build.make CMakeFiles/cmTC_9ebdd.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ebdd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_9ebdd.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9ebdd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ebdd.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_9ebdd.dir/CheckFunctionExists.c.o -o cmTC_9ebdd  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_9ebdd.dir/build.make:106: cmTC_9ebdd] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_9ebdd/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_fd41c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fd41c.dir/build.make CMakeFiles/cmTC_fd41c.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fd41c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_fd41c.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fd41c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd41c.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_fd41c.dir/CheckFunctionExists.c.o -o cmTC_fd41c 
+/usr/bin/ld: CMakeFiles/cmTC_fd41c.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_fd41c.dir/build.make:106: cmTC_fd41c] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_fd41c/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6ef1d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6ef1d.dir/build.make CMakeFiles/cmTC_6ef1d.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6ef1d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_6ef1d.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6ef1d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ef1d.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_6ef1d.dir/CheckFunctionExists.c.o -o cmTC_6ef1d  /usr/lib/aarch64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_6ef1d.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_6ef1d.dir/build.make:107: cmTC_6ef1d] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_6ef1d/fast] Error 2
+
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a5fce/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a5fce.dir/build.make CMakeFiles/cmTC_a5fce.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a5fce.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_a5fce.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a5fce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5fce.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_a5fce.dir/CheckFunctionExists.c.o -o cmTC_a5fce  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_a5fce.dir/build.make:106: cmTC_a5fce] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_a5fce/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b0f27/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b0f27.dir/build.make CMakeFiles/cmTC_b0f27.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b0f27.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_b0f27.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b0f27
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0f27.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_b0f27.dir/CheckFunctionExists.c.o -o cmTC_b0f27 
+/usr/bin/ld: CMakeFiles/cmTC_b0f27.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_b0f27.dir/build.make:106: cmTC_b0f27] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_b0f27/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_019a6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_019a6.dir/build.make CMakeFiles/cmTC_019a6.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_019a6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_019a6.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_019a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_019a6.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_019a6.dir/CheckFunctionExists.c.o -o cmTC_019a6  /usr/lib/aarch64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_019a6.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_019a6.dir/build.make:107: cmTC_019a6] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_019a6/fast] Error 2
+
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_d2033/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d2033.dir/build.make CMakeFiles/cmTC_d2033.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d2033.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_d2033.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d2033
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2033.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_d2033.dir/CheckFunctionExists.c.o -o cmTC_d2033  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_d2033.dir/build.make:106: cmTC_d2033] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_d2033/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_80087/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_80087.dir/build.make CMakeFiles/cmTC_80087.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_80087.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_80087.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_80087
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80087.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_80087.dir/CheckFunctionExists.c.o -o cmTC_80087 
+/usr/bin/ld: CMakeFiles/cmTC_80087.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_80087.dir/build.make:106: cmTC_80087] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_80087/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f84b8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f84b8.dir/build.make CMakeFiles/cmTC_f84b8.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f84b8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_f84b8.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f84b8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f84b8.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_f84b8.dir/CheckFunctionExists.c.o -o cmTC_f84b8  /usr/lib/aarch64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_f84b8.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_f84b8.dir/build.make:107: cmTC_f84b8] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_f84b8/fast] Error 2
+
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_501c0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_501c0.dir/build.make CMakeFiles/cmTC_501c0.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_501c0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_501c0.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_501c0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_501c0.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_501c0.dir/CheckFunctionExists.c.o -o cmTC_501c0  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_501c0.dir/build.make:106: cmTC_501c0] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_501c0/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_3bc47/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3bc47.dir/build.make CMakeFiles/cmTC_3bc47.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3bc47.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_3bc47.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3bc47
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bc47.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_3bc47.dir/CheckFunctionExists.c.o -o cmTC_3bc47 
+/usr/bin/ld: CMakeFiles/cmTC_3bc47.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_3bc47.dir/build.make:106: cmTC_3bc47] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_3bc47/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_3daa7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3daa7.dir/build.make CMakeFiles/cmTC_3daa7.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3daa7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_3daa7.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3daa7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3daa7.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_3daa7.dir/CheckFunctionExists.c.o -o cmTC_3daa7  /usr/lib/aarch64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_3daa7.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_3daa7.dir/build.make:107: cmTC_3daa7] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_3daa7/fast] Error 2
+
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_74a24/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_74a24.dir/build.make CMakeFiles/cmTC_74a24.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74a24.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_74a24.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_74a24
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74a24.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_74a24.dir/CheckFunctionExists.c.o -o cmTC_74a24  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_74a24.dir/build.make:106: cmTC_74a24] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_74a24/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e23b8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e23b8.dir/build.make CMakeFiles/cmTC_e23b8.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e23b8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_e23b8.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e23b8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e23b8.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_e23b8.dir/CheckFunctionExists.c.o -o cmTC_e23b8 
+/usr/bin/ld: CMakeFiles/cmTC_e23b8.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_e23b8.dir/build.make:106: cmTC_e23b8] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_e23b8/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_fd6f5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fd6f5.dir/build.make CMakeFiles/cmTC_fd6f5.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fd6f5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_fd6f5.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fd6f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd6f5.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_fd6f5.dir/CheckFunctionExists.c.o -o cmTC_fd6f5  /usr/lib/aarch64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_fd6f5.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_fd6f5.dir/build.make:107: cmTC_fd6f5] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_fd6f5/fast] Error 2
+
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_22be0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_22be0.dir/build.make CMakeFiles/cmTC_22be0.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22be0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_22be0.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_22be0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22be0.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_22be0.dir/CheckFunctionExists.c.o -o cmTC_22be0  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_22be0.dir/build.make:106: cmTC_22be0] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_22be0/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_26639/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_26639.dir/build.make CMakeFiles/cmTC_26639.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26639.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_26639.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_26639
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26639.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_26639.dir/CheckFunctionExists.c.o -o cmTC_26639 
+/usr/bin/ld: CMakeFiles/cmTC_26639.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_26639.dir/build.make:106: cmTC_26639] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_26639/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b160c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b160c.dir/build.make CMakeFiles/cmTC_b160c.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b160c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_b160c.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b160c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b160c.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_b160c.dir/CheckFunctionExists.c.o -o cmTC_b160c  /usr/lib/aarch64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_b160c.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_b160c.dir/build.make:107: cmTC_b160c] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_b160c/fast] Error 2
+
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_32165/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_32165.dir/build.make CMakeFiles/cmTC_32165.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_32165.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_32165.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_32165
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32165.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_32165.dir/CheckFunctionExists.c.o -o cmTC_32165  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_32165.dir/build.make:106: cmTC_32165] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_32165/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e4c34/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e4c34.dir/build.make CMakeFiles/cmTC_e4c34.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e4c34.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_e4c34.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e4c34
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4c34.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_e4c34.dir/CheckFunctionExists.c.o -o cmTC_e4c34 
+/usr/bin/ld: CMakeFiles/cmTC_e4c34.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_e4c34.dir/build.make:106: cmTC_e4c34] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_e4c34/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_fb9b4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fb9b4.dir/build.make CMakeFiles/cmTC_fb9b4.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb9b4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_fb9b4.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fb9b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb9b4.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_fb9b4.dir/CheckFunctionExists.c.o -o cmTC_fb9b4  /usr/lib/aarch64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_fb9b4.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_fb9b4.dir/build.make:107: cmTC_fb9b4] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_fb9b4/fast] Error 2
+
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_7c27c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7c27c.dir/build.make CMakeFiles/cmTC_7c27c.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7c27c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_7c27c.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7c27c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c27c.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_7c27c.dir/CheckFunctionExists.c.o -o cmTC_7c27c  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_7c27c.dir/build.make:106: cmTC_7c27c] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_7c27c/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_ee43c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ee43c.dir/build.make CMakeFiles/cmTC_ee43c.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee43c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_ee43c.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ee43c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee43c.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_ee43c.dir/CheckFunctionExists.c.o -o cmTC_ee43c 
+/usr/bin/ld: CMakeFiles/cmTC_ee43c.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_ee43c.dir/build.make:106: cmTC_ee43c] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_ee43c/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a8153/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a8153.dir/build.make CMakeFiles/cmTC_a8153.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8153.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_a8153.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a8153
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8153.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_a8153.dir/CheckFunctionExists.c.o -o cmTC_a8153  /usr/lib/aarch64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_a8153.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_a8153.dir/build.make:107: cmTC_a8153] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_a8153/fast] Error 2
+
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e139d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e139d.dir/build.make CMakeFiles/cmTC_e139d.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e139d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_e139d.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e139d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e139d.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_e139d.dir/CheckFunctionExists.c.o -o cmTC_e139d  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_e139d.dir/build.make:106: cmTC_e139d] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_e139d/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_c88d5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c88d5.dir/build.make CMakeFiles/cmTC_c88d5.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c88d5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_c88d5.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c88d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c88d5.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_c88d5.dir/CheckFunctionExists.c.o -o cmTC_c88d5 
+/usr/bin/ld: CMakeFiles/cmTC_c88d5.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_c88d5.dir/build.make:106: cmTC_c88d5] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_c88d5/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_32678/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_32678.dir/build.make CMakeFiles/cmTC_32678.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_32678.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_32678.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_32678
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32678.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_32678.dir/CheckFunctionExists.c.o -o cmTC_32678  /usr/lib/aarch64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_32678.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_32678.dir/build.make:107: cmTC_32678] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_32678/fast] Error 2
+
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_bcc8a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bcc8a.dir/build.make CMakeFiles/cmTC_bcc8a.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bcc8a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_bcc8a.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bcc8a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcc8a.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_bcc8a.dir/CheckFunctionExists.c.o -o cmTC_bcc8a  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_bcc8a.dir/build.make:106: cmTC_bcc8a] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_bcc8a/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_37ff6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_37ff6.dir/build.make CMakeFiles/cmTC_37ff6.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_37ff6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_37ff6.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_37ff6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37ff6.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_37ff6.dir/CheckFunctionExists.c.o -o cmTC_37ff6 
+/usr/bin/ld: CMakeFiles/cmTC_37ff6.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_37ff6.dir/build.make:106: cmTC_37ff6] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_37ff6/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_0c911/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0c911.dir/build.make CMakeFiles/cmTC_0c911.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0c911.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_0c911.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0c911
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c911.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_0c911.dir/CheckFunctionExists.c.o -o cmTC_0c911  /usr/lib/aarch64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_0c911.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_0c911.dir/build.make:107: cmTC_0c911] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_0c911/fast] Error 2
+
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_054b7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_054b7.dir/build.make CMakeFiles/cmTC_054b7.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_054b7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_054b7.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_054b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_054b7.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_054b7.dir/CheckFunctionExists.c.o -o cmTC_054b7  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_054b7.dir/build.make:106: cmTC_054b7] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_054b7/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_87ee0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_87ee0.dir/build.make CMakeFiles/cmTC_87ee0.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_87ee0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_87ee0.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_87ee0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87ee0.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_87ee0.dir/CheckFunctionExists.c.o -o cmTC_87ee0 
+/usr/bin/ld: CMakeFiles/cmTC_87ee0.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_87ee0.dir/build.make:106: cmTC_87ee0] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_87ee0/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5ee9f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5ee9f.dir/build.make CMakeFiles/cmTC_5ee9f.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5ee9f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_5ee9f.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5ee9f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ee9f.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_5ee9f.dir/CheckFunctionExists.c.o -o cmTC_5ee9f  /usr/lib/aarch64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_5ee9f.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_5ee9f.dir/build.make:107: cmTC_5ee9f] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_5ee9f/fast] Error 2
+
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6e081/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6e081.dir/build.make CMakeFiles/cmTC_6e081.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6e081.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_6e081.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6e081
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e081.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_6e081.dir/CheckFunctionExists.c.o -o cmTC_6e081  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_6e081.dir/build.make:106: cmTC_6e081] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_6e081/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_097a3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_097a3.dir/build.make CMakeFiles/cmTC_097a3.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_097a3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_097a3.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_097a3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_097a3.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_097a3.dir/CheckFunctionExists.c.o -o cmTC_097a3 
+/usr/bin/ld: CMakeFiles/cmTC_097a3.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_097a3.dir/build.make:106: cmTC_097a3] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_097a3/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_c058c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c058c.dir/build.make CMakeFiles/cmTC_c058c.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c058c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_c058c.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c058c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c058c.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_c058c.dir/CheckFunctionExists.c.o -o cmTC_c058c  /usr/lib/aarch64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_c058c.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_c058c.dir/build.make:107: cmTC_c058c] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_c058c/fast] Error 2
+
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_ffa89/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ffa89.dir/build.make CMakeFiles/cmTC_ffa89.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ffa89.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_ffa89.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ffa89
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffa89.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_ffa89.dir/CheckFunctionExists.c.o -o cmTC_ffa89  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_ffa89.dir/build.make:106: cmTC_ffa89] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_ffa89/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_11039/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_11039.dir/build.make CMakeFiles/cmTC_11039.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11039.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_11039.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_11039
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11039.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_11039.dir/CheckFunctionExists.c.o -o cmTC_11039 
+/usr/bin/ld: CMakeFiles/cmTC_11039.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_11039.dir/build.make:106: cmTC_11039] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_11039/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_d0de5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d0de5.dir/build.make CMakeFiles/cmTC_d0de5.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d0de5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_d0de5.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d0de5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0de5.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_d0de5.dir/CheckFunctionExists.c.o -o cmTC_d0de5  /usr/lib/aarch64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_d0de5.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_d0de5.dir/build.make:107: cmTC_d0de5] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_d0de5/fast] Error 2
+
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_25638/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_25638.dir/build.make CMakeFiles/cmTC_25638.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_25638.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_25638.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_25638
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25638.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_25638.dir/CheckFunctionExists.c.o -o cmTC_25638  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_25638.dir/build.make:106: cmTC_25638] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_25638/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_454de/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_454de.dir/build.make CMakeFiles/cmTC_454de.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_454de.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_454de.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_454de
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_454de.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_454de.dir/CheckFunctionExists.c.o -o cmTC_454de 
+/usr/bin/ld: CMakeFiles/cmTC_454de.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_454de.dir/build.make:106: cmTC_454de] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_454de/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6b1e3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6b1e3.dir/build.make CMakeFiles/cmTC_6b1e3.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6b1e3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_6b1e3.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6b1e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b1e3.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_6b1e3.dir/CheckFunctionExists.c.o -o cmTC_6b1e3  /usr/lib/aarch64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_6b1e3.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_6b1e3.dir/build.make:107: cmTC_6b1e3] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_6b1e3/fast] Error 2
+
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_59eff/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_59eff.dir/build.make CMakeFiles/cmTC_59eff.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_59eff.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_59eff.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_59eff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59eff.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_59eff.dir/CheckFunctionExists.c.o -o cmTC_59eff  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_59eff.dir/build.make:106: cmTC_59eff] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_59eff/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b4612/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b4612.dir/build.make CMakeFiles/cmTC_b4612.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b4612.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_b4612.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b4612
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4612.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_b4612.dir/CheckFunctionExists.c.o -o cmTC_b4612 
+/usr/bin/ld: CMakeFiles/cmTC_b4612.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_b4612.dir/build.make:106: cmTC_b4612] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_b4612/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_1f5ea/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1f5ea.dir/build.make CMakeFiles/cmTC_1f5ea.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f5ea.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_1f5ea.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1f5ea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f5ea.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_1f5ea.dir/CheckFunctionExists.c.o -o cmTC_1f5ea  /usr/lib/aarch64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_1f5ea.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_1f5ea.dir/build.make:107: cmTC_1f5ea] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_1f5ea/fast] Error 2
+
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_70c8b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_70c8b.dir/build.make CMakeFiles/cmTC_70c8b.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_70c8b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_70c8b.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_70c8b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70c8b.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_70c8b.dir/CheckFunctionExists.c.o -o cmTC_70c8b  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_70c8b.dir/build.make:106: cmTC_70c8b] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_70c8b/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_af536/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_af536.dir/build.make CMakeFiles/cmTC_af536.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af536.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_af536.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_af536
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af536.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_af536.dir/CheckFunctionExists.c.o -o cmTC_af536 
+/usr/bin/ld: CMakeFiles/cmTC_af536.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_af536.dir/build.make:106: cmTC_af536] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_af536/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_c1ac2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c1ac2.dir/build.make CMakeFiles/cmTC_c1ac2.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c1ac2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_c1ac2.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c1ac2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1ac2.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_c1ac2.dir/CheckFunctionExists.c.o -o cmTC_c1ac2  /usr/lib/aarch64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_c1ac2.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_c1ac2.dir/build.make:107: cmTC_c1ac2] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_c1ac2/fast] Error 2
+
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_80859/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_80859.dir/build.make CMakeFiles/cmTC_80859.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_80859.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_80859.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_80859
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80859.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_80859.dir/CheckFunctionExists.c.o -o cmTC_80859  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_80859.dir/build.make:106: cmTC_80859] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_80859/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_0a5b7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0a5b7.dir/build.make CMakeFiles/cmTC_0a5b7.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0a5b7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_0a5b7.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0a5b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a5b7.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_0a5b7.dir/CheckFunctionExists.c.o -o cmTC_0a5b7 
+/usr/bin/ld: CMakeFiles/cmTC_0a5b7.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_0a5b7.dir/build.make:106: cmTC_0a5b7] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_0a5b7/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_68c48/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_68c48.dir/build.make CMakeFiles/cmTC_68c48.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68c48.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_68c48.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_68c48
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68c48.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_68c48.dir/CheckFunctionExists.c.o -o cmTC_68c48  /usr/lib/aarch64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_68c48.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_68c48.dir/build.make:107: cmTC_68c48] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_68c48/fast] Error 2
+
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f60d9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f60d9.dir/build.make CMakeFiles/cmTC_f60d9.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f60d9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_f60d9.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f60d9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f60d9.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_f60d9.dir/CheckFunctionExists.c.o -o cmTC_f60d9  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_f60d9.dir/build.make:106: cmTC_f60d9] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_f60d9/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5a8df/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5a8df.dir/build.make CMakeFiles/cmTC_5a8df.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5a8df.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_5a8df.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5a8df
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a8df.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_5a8df.dir/CheckFunctionExists.c.o -o cmTC_5a8df 
+/usr/bin/ld: CMakeFiles/cmTC_5a8df.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_5a8df.dir/build.make:106: cmTC_5a8df] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_5a8df/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6bc61/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6bc61.dir/build.make CMakeFiles/cmTC_6bc61.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6bc61.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_6bc61.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6bc61
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6bc61.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_6bc61.dir/CheckFunctionExists.c.o -o cmTC_6bc61  /usr/lib/aarch64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_6bc61.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_6bc61.dir/build.make:107: cmTC_6bc61] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_6bc61/fast] Error 2
+
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_97b4b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_97b4b.dir/build.make CMakeFiles/cmTC_97b4b.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_97b4b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_97b4b.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_97b4b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97b4b.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_97b4b.dir/CheckFunctionExists.c.o -o cmTC_97b4b  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_97b4b.dir/build.make:106: cmTC_97b4b] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_97b4b/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_c6a6f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c6a6f.dir/build.make CMakeFiles/cmTC_c6a6f.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6a6f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_c6a6f.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c6a6f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6a6f.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_c6a6f.dir/CheckFunctionExists.c.o -o cmTC_c6a6f 
+/usr/bin/ld: CMakeFiles/cmTC_c6a6f.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_c6a6f.dir/build.make:106: cmTC_c6a6f] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_c6a6f/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6757d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6757d.dir/build.make CMakeFiles/cmTC_6757d.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6757d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_6757d.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6757d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6757d.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_6757d.dir/CheckFunctionExists.c.o -o cmTC_6757d  /usr/lib/aarch64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_6757d.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_6757d.dir/build.make:107: cmTC_6757d] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_6757d/fast] Error 2
+
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_7ec50/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7ec50.dir/build.make CMakeFiles/cmTC_7ec50.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ec50.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_7ec50.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7ec50
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ec50.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_7ec50.dir/CheckFunctionExists.c.o -o cmTC_7ec50  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_7ec50.dir/build.make:106: cmTC_7ec50] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_7ec50/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_9a39b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9a39b.dir/build.make CMakeFiles/cmTC_9a39b.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a39b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_9a39b.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9a39b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a39b.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_9a39b.dir/CheckFunctionExists.c.o -o cmTC_9a39b 
+/usr/bin/ld: CMakeFiles/cmTC_9a39b.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_9a39b.dir/build.make:106: cmTC_9a39b] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_9a39b/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_89318/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_89318.dir/build.make CMakeFiles/cmTC_89318.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_89318.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_89318.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_89318
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89318.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_89318.dir/CheckFunctionExists.c.o -o cmTC_89318  /usr/lib/aarch64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_89318.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_89318.dir/build.make:107: cmTC_89318] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_89318/fast] Error 2
+
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b7d93/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b7d93.dir/build.make CMakeFiles/cmTC_b7d93.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b7d93.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_b7d93.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b7d93
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7d93.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_b7d93.dir/CheckFunctionExists.c.o -o cmTC_b7d93  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_b7d93.dir/build.make:106: cmTC_b7d93] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_b7d93/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_3881e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3881e.dir/build.make CMakeFiles/cmTC_3881e.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3881e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_3881e.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3881e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3881e.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_3881e.dir/CheckFunctionExists.c.o -o cmTC_3881e 
+/usr/bin/ld: CMakeFiles/cmTC_3881e.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_3881e.dir/build.make:106: cmTC_3881e] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_3881e/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_33de1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_33de1.dir/build.make CMakeFiles/cmTC_33de1.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_33de1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_33de1.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_33de1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33de1.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_33de1.dir/CheckFunctionExists.c.o -o cmTC_33de1  /usr/lib/aarch64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_33de1.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_33de1.dir/build.make:107: cmTC_33de1] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_33de1/fast] Error 2
+
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_dc3be/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dc3be.dir/build.make CMakeFiles/cmTC_dc3be.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc3be.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_dc3be.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dc3be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc3be.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_dc3be.dir/CheckFunctionExists.c.o -o cmTC_dc3be  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_dc3be.dir/build.make:106: cmTC_dc3be] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_dc3be/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_cde03/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cde03.dir/build.make CMakeFiles/cmTC_cde03.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cde03.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_cde03.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cde03
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cde03.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_cde03.dir/CheckFunctionExists.c.o -o cmTC_cde03 
+/usr/bin/ld: CMakeFiles/cmTC_cde03.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_cde03.dir/build.make:106: cmTC_cde03] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_cde03/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_9ad14/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9ad14.dir/build.make CMakeFiles/cmTC_9ad14.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ad14.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_9ad14.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9ad14
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ad14.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_9ad14.dir/CheckFunctionExists.c.o -o cmTC_9ad14  /usr/lib/aarch64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_9ad14.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_9ad14.dir/build.make:107: cmTC_9ad14] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_9ad14/fast] Error 2
+
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_cdb42/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cdb42.dir/build.make CMakeFiles/cmTC_cdb42.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cdb42.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_cdb42.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cdb42
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdb42.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_cdb42.dir/CheckFunctionExists.c.o -o cmTC_cdb42  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_cdb42.dir/build.make:106: cmTC_cdb42] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_cdb42/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_af84d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_af84d.dir/build.make CMakeFiles/cmTC_af84d.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af84d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_af84d.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_af84d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af84d.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_af84d.dir/CheckFunctionExists.c.o -o cmTC_af84d 
+/usr/bin/ld: CMakeFiles/cmTC_af84d.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_af84d.dir/build.make:106: cmTC_af84d] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_af84d/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_7a9d1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7a9d1.dir/build.make CMakeFiles/cmTC_7a9d1.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a9d1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_7a9d1.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7a9d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a9d1.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_7a9d1.dir/CheckFunctionExists.c.o -o cmTC_7a9d1  /usr/lib/aarch64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_7a9d1.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_7a9d1.dir/build.make:107: cmTC_7a9d1] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_7a9d1/fast] Error 2
+
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6c7fb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6c7fb.dir/build.make CMakeFiles/cmTC_6c7fb.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6c7fb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_6c7fb.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6c7fb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c7fb.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_6c7fb.dir/CheckFunctionExists.c.o -o cmTC_6c7fb  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_6c7fb.dir/build.make:106: cmTC_6c7fb] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_6c7fb/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_d1c8e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d1c8e.dir/build.make CMakeFiles/cmTC_d1c8e.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d1c8e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_d1c8e.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d1c8e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1c8e.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_d1c8e.dir/CheckFunctionExists.c.o -o cmTC_d1c8e 
+/usr/bin/ld: CMakeFiles/cmTC_d1c8e.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_d1c8e.dir/build.make:106: cmTC_d1c8e] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_d1c8e/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_98f48/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_98f48.dir/build.make CMakeFiles/cmTC_98f48.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98f48.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_98f48.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_98f48
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98f48.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_98f48.dir/CheckFunctionExists.c.o -o cmTC_98f48  /usr/lib/aarch64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_98f48.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_98f48.dir/build.make:107: cmTC_98f48] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_98f48/fast] Error 2
+
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_2e9ff/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2e9ff.dir/build.make CMakeFiles/cmTC_2e9ff.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2e9ff.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_2e9ff.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2e9ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e9ff.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_2e9ff.dir/CheckFunctionExists.c.o -o cmTC_2e9ff  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_2e9ff.dir/build.make:106: cmTC_2e9ff] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_2e9ff/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b0ea2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b0ea2.dir/build.make CMakeFiles/cmTC_b0ea2.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b0ea2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_b0ea2.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b0ea2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0ea2.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_b0ea2.dir/CheckFunctionExists.c.o -o cmTC_b0ea2 
+/usr/bin/ld: CMakeFiles/cmTC_b0ea2.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_b0ea2.dir/build.make:106: cmTC_b0ea2] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_b0ea2/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_8ec6a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8ec6a.dir/build.make CMakeFiles/cmTC_8ec6a.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ec6a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_8ec6a.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8ec6a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ec6a.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_8ec6a.dir/CheckFunctionExists.c.o -o cmTC_8ec6a  /usr/lib/aarch64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_8ec6a.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_8ec6a.dir/build.make:107: cmTC_8ec6a] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_8ec6a/fast] Error 2
+
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_7a4e7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7a4e7.dir/build.make CMakeFiles/cmTC_7a4e7.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a4e7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_7a4e7.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7a4e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a4e7.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_7a4e7.dir/CheckFunctionExists.c.o -o cmTC_7a4e7  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_7a4e7.dir/build.make:106: cmTC_7a4e7] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_7a4e7/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_30805/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_30805.dir/build.make CMakeFiles/cmTC_30805.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30805.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_30805.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_30805
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30805.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_30805.dir/CheckFunctionExists.c.o -o cmTC_30805 
+/usr/bin/ld: CMakeFiles/cmTC_30805.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_30805.dir/build.make:106: cmTC_30805] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_30805/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_ffe59/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ffe59.dir/build.make CMakeFiles/cmTC_ffe59.dir/build
+gmake[1]: Entering directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ffe59.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_ffe59.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ffe59
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffe59.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_ffe59.dir/CheckFunctionExists.c.o -o cmTC_ffe59  /usr/lib/aarch64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_ffe59.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_ffe59.dir/build.make:107: cmTC_ffe59] Error 1
+gmake[1]: Leaving directory '/home/pi/LTE-Cell-Scanner/src/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_ffe59/fast] Error 2
+
+
+

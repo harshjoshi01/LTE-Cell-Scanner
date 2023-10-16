@@ -1,0 +1,1 @@
+/usr/bin/c++  -ggdb -Wall -fopenmp -O3 -DNDEBUG -rdynamic CMakeFiles/MyLTETracker.dir/src/LTE-Tracker.cpp.o CMakeFiles/MyLTETracker.dir/src/producer_thread.cpp.o CMakeFiles/MyLTETracker.dir/src/tracker_thread.cpp.o -o MyLTETracker  src/libLTE_MISC.a -litpp_debug -litpp 
