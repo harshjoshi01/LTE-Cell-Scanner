@@ -23,6 +23,7 @@ FIND_LIBRARY(RTLSDR_LIBRARY
   /usr/pkgs64/lib
   /usr/lib64
   /usr/lib/aarch64-linux-gnu
+  /usr/lib/arm-linux-gnueabihf/
   /usr/lib
   /usr/local/lib
   NO_DEFAULT_PATH
