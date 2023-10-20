@@ -23,15 +23,10 @@ sudo apt install libcurses-dev
 ```
 mkdir build
 cd build
-cmake ../
+cmake ../ -DUSE_BLADERF=1
 make
 ```
-By default above builds for rtlsdr. Following arguments could be added at the end of cmake command for different hardwares and options. 
-```
--DUSE_BLADERF=1   -- build for BladeRF
--DUSE_HACKRF=1    -- build for HackRF
--DUSE_OPENCL=0    -- disable OpenCL (See notes in later chapter)
-```
+
 ## Usage
 - CellSearch
 ```
