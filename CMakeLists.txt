@@ -1,4 +1,4 @@
-CMAKE_MINIMUM_REQUIRED( VERSION 2.8.4 )
+CMAKE_MINIMUM_REQUIRED( VERSION 3.25.1 )
 SET (CMAKE_LIBRARY_PATH "/usr/lib/aarch64-linux-gnu/")
 # allow more human readable "if then else" constructs
 #SET( CMAKE_ALLOW_LOOSE_LOOP_CONSTRUCTS TRUE )
