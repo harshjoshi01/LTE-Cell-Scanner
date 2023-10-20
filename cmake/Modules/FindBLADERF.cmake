@@ -11,6 +11,7 @@
 
 FIND_PATH(BLADERF_INCLUDE_DIR libbladeRF.h
   ${LIBBLADERF_DIR}/include
+  /usr/include/libbladeRF
   /usr/local/include/libbladeRF
 )
 
@@ -21,6 +22,7 @@ FIND_LIBRARY(BLADERF_LIBRARY
   /usr/pkgs64/lib
   /usr/lib64
   /usr/lib/aarch64-linux-gnu/
+  /usr/lib/arm-linux-gnueabihf/
   /usr/lib
   /usr/local/lib
   NO_DEFAULT_PATH
