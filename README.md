@@ -10,7 +10,7 @@
 (It has gone too far away from the Evrytania/LTE-Cell-Scanner since the time I had less FOSS experience, so let's keep my ugly work here and not ruine the original.)
 
 ## Requirements
-first need to install some libraries before making build directory in LTE-Cell-Scanner
+first need to install some libraries before install LTE-Cell-Scanner in LTE-Cell-Scanner directory
 ```
 sudo apt install libitpp-dev 
 sudo apt install libblas-dev 
@@ -21,7 +21,6 @@ sudo apt install libcurses-dev
 ## Build
 
 ```
-mkdir build
 cd build
 cmake ../ -DUSE_BLADERF=1
 make
