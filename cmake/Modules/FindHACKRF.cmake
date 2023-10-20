@@ -21,6 +21,7 @@ FIND_LIBRARY(HACKRF_LIBRARY
   "${HACKRF_DIR}\\win32\\lib"
   /usr/pkgs64/lib
   /usr/lib/aarch64-linux-gnu
+  /usr/lib/arm-linux-gnueabihf/
   /usr/lib64
   /usr/lib
   /usr/local/lib
