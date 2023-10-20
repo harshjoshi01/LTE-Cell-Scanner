@@ -9,6 +9,15 @@
 
 (It has gone too far away from the Evrytania/LTE-Cell-Scanner since the time I had less FOSS experience, so let's keep my ugly work here and not ruine the original.)
 
+## Requirements
+first need to install some libraries before making build directory in LTE-Cell-Scanner
+```
+sudo apt install libitpp-dev 
+sudo apt install libblas-dev 
+sudo apt install liblapack-dev 
+sudo apt install libbladerf-dev
+sudo apt install libcurses-dev 
+```
 ## Build
 You might need to install some [libs](prepare-lib.md) before build.
 ```
