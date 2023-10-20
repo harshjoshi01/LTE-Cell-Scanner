@@ -21,7 +21,7 @@ sudo apt install libcurses-dev
 ## Build
 
 ```
-cd build
+cd LTE-Cell-Scanner/build/
 cmake ../ -DUSE_BLADERF=1
 make
 sudo make install
