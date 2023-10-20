@@ -24,6 +24,7 @@ sudo apt install libcurses-dev
 cd build
 cmake ../ -DUSE_BLADERF=1
 make
+sudo make install
 ```
 
 ## Usage
