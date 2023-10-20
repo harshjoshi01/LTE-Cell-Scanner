@@ -22,6 +22,7 @@ FIND_LIBRARY(FFTW_LIBRARY
   "${FFTW_DIR}\\win32\\lib"
   /usr/lib/x86_64-linux-gnu
   /usr/lib/aarch64-linux-gnu
+  /usr/lib/arm-linux-gnueabihf/
   /usr/pkgs64/lib
   /usr/lib64
   /usr/lib
