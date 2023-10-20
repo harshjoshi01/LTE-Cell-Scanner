@@ -19,7 +19,7 @@ sudo apt install libbladerf-dev
 sudo apt install libcurses-dev 
 ```
 ## Build
-You might need to install some [libs](prepare-lib.md) before build.
+
 ```
 mkdir build
 cd build
